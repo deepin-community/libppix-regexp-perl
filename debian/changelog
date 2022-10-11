@@ -1,0 +1,582 @@
+libppix-regexp-perl (0.081-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.081.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 23 Oct 2021 16:48:26 +0200
+
+libppix-regexp-perl (0.080-1) unstable; urgency=medium
+
+  * Import upstream version 0.080.
+  * d/u/metadata: Move Bug-Database back to rt.cpan.org.
+    Update Bug-Sumit accordingly as autodetected via dpt debian-upstream.
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 17 Aug 2021 15:01:33 +0200
+
+libppix-regexp-perl (0.078-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.078.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 01 Feb 2021 17:29:35 +0100
+
+libppix-regexp-perl (0.077-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.077.
+  * Update debian/upstream/metadata.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 17 Jan 2021 02:03:22 +0100
+
+libppix-regexp-perl (0.076-1) unstable; urgency=medium
+
+  * Import upstream version 0.076
+  * Declare compliance with Debian policy 4.5.1
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 30 Nov 2020 16:21:38 +0100
+
+libppix-regexp-perl (0.075-1) unstable; urgency=medium
+
+  * Import upstream version 0.075
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 09 Oct 2020 00:03:41 +0200
+
+libppix-regexp-perl (0.074-1) unstable; urgency=medium
+
+  * Import upstream version 0.074
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 Sep 2020 07:23:15 +0200
+
+libppix-regexp-perl (0.073-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 0.073
+
+  [ gregor herrmann ]
+  * debian/rules: simplify hashbang fix a bit.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 31 Jul 2020 17:51:16 +0200
+
+libppix-regexp-perl (0.072-1) unstable; urgency=medium
+
+  * Import upstream version 0.072
+  * debian/control: Drop Depends on liblist-moreutils-perl
+  * Bump Debhelper compat level to 13
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 20 May 2020 23:42:01 +0200
+
+libppix-regexp-perl (0.071-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.071.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 01 Apr 2020 19:19:06 +0200
+
+libppix-regexp-perl (0.070-1) unstable; urgency=medium
+
+  * Import upstream version 0.070
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 29 Feb 2020 09:17:43 +0100
+
+libppix-regexp-perl (0.069-1) unstable; urgency=medium
+
+  * Import upstream version 0.069
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 08 Feb 2020 10:03:39 +0100
+
+libppix-regexp-perl (0.068-1) unstable; urgency=medium
+
+  * Import upstream version 0.068
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 4.5.0
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 21 Jan 2020 22:05:10 +0100
+
+libppix-regexp-perl (0.067-1) unstable; urgency=medium
+
+  * Import upstream version 0.067
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 31 Aug 2019 14:41:24 +0200
+
+libppix-regexp-perl (0.066-1) unstable; urgency=medium
+
+  * Import upstream version 0.066
+  * debian/watch: Bump format to version 4
+  * Declare compliance with Debian policy 4.4.0
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 16 Aug 2019 22:01:26 +0200
+
+libppix-regexp-perl (0.065-1) unstable; urgency=medium
+
+  * Upload to unstable
+  * Import upstream version 0.065
+  * Bump Debhelper compat level to 12
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 06 Jul 2019 15:37:22 +0200
+
+libppix-regexp-perl (0.064-1) experimental; urgency=medium
+
+  * Import upstream version 0.064
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 4.3.0
+  * Add eg/predump file to smoke-files for autopkgtests
+    eg/predump is used in the new t/unit-adhoc.t test and needs to be
+    present in the autopkgtests environment to be able to run the
+    t/unit-adhoc.t test itself.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 03 Apr 2019 22:21:12 +0200
+
+libppix-regexp-perl (0.063-1) unstable; urgency=medium
+
+  * Import upstream version 0.063
+  * Declare compliance with Debian policy 4.2.1
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 11 Nov 2018 08:41:26 +0100
+
+libppix-regexp-perl (0.062-1) unstable; urgency=medium
+
+  * Import upstream version 0.062
+  * Declare compliance with Debian policy 4.2.0
+  * Add override for dh_installexamples to fix shebang to Perl interpreter in
+    examples files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 14 Aug 2018 07:11:28 +0200
+
+libppix-regexp-perl (0.061-1) unstable; urgency=medium
+
+  * Import upstream version 0.061
+  * Declare compliance with Debian policy 4.1.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 10 Jul 2018 08:44:36 +0200
+
+libppix-regexp-perl (0.060-1) unstable; urgency=medium
+
+  * Import upstream version 0.060
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 16 Jun 2018 21:19:03 +0200
+
+libppix-regexp-perl (0.059-1) unstable; urgency=medium
+
+  * Import upstream version 0.059
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 May 2018 08:01:00 +0200
+
+libppix-regexp-perl (0.058-1) unstable; urgency=medium
+
+  * Import upstream version 0.058
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 27 Apr 2018 20:36:43 +0200
+
+libppix-regexp-perl (0.057-1) unstable; urgency=medium
+
+  * Import upstream version 0.057
+  * Declare compliance with Debian policy 4.1.4
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 18 Apr 2018 14:11:01 +0200
+
+libppix-regexp-perl (0.056-1) unstable; urgency=medium
+
+  * Update Vcs-* headers for switch to salsa.debian.org
+  * Import upstream version 0.056
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 07 Mar 2018 19:14:39 +0100
+
+libppix-regexp-perl (0.055-1) unstable; urgency=medium
+
+  * Import upstream version 0.055
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 08 Feb 2018 21:24:34 +0100
+
+libppix-regexp-perl (0.054-1) unstable; urgency=medium
+
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.3 (no changes needed)
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 0.054
+  * Bump Debhelper compat level to 10
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Set Rules-Requires-Root to no
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 29 Jan 2018 21:06:57 +0100
+
+libppix-regexp-perl (0.053-1) unstable; urgency=medium
+
+  * Import upstream version 0.053
+  * Declare compliance with Debian policy 4.1.1
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 30 Oct 2017 21:46:31 +0100
+
+libppix-regexp-perl (0.052-1) unstable; urgency=medium
+
+  * Import upstream version 0.052
+  * Declare compliance with Debian policy 4.1.0
+  * Drop spelling-error-in-manpage.patch patch
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 08 Sep 2017 12:38:08 +0200
+
+libppix-regexp-perl (0.051-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Jose Luis Rivas from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 0.051
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 4.0.0
+  * Add spelling-error-in-manpage.patch patch
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 05 Aug 2017 16:59:59 +0200
+
+libppix-regexp-perl (0.050-1) unstable; urgency=medium
+
+  * Import upstream version 0.050
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 07 May 2016 07:47:08 +0200
+
+libppix-regexp-perl (0.049-1) unstable; urgency=medium
+
+  * Import upstream version 0.049
+  * Declare compliance with Debian policy 3.9.8
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 19 Apr 2016 20:02:45 +0200
+
+libppix-regexp-perl (0.048-1) unstable; urgency=medium
+
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+  * Import upstream version 0.048
+  * Declare compliance with Debian policy 3.9.7
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 01 Mar 2016 08:05:53 +0100
+
+libppix-regexp-perl (0.047-1) unstable; urgency=medium
+
+  * Import upstream version 0.047
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 29 Jan 2016 19:39:04 +0100
+
+libppix-regexp-perl (0.046-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.046
+  * Update copyright years for upstream files
+  * Add debian/upstream/metadata information
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 09 Jan 2016 16:09:44 +0100
+
+libppix-regexp-perl (0.045-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.045
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 01 Jan 2016 20:21:31 +0100
+
+libppix-regexp-perl (0.044-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.044
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 Dec 2015 22:54:24 +0100
+
+libppix-regexp-perl (0.043-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.043
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 19 Nov 2015 06:16:06 +0100
+
+libppix-regexp-perl (0.042-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.042
+  * Bump Debhelper compat level to 9
+  * autopkgtest: Rename test-files to preferred smoke-files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 09 Oct 2015 21:28:13 +0200
+
+libppix-regexp-perl (0.041-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.041
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 03 Jul 2015 08:02:20 +0200
+
+libppix-regexp-perl (0.040-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add explicit build dependency on libmodule-build-perl
+
+ -- Niko Tyni <ntyni@debian.org>  Thu, 04 Jun 2015 22:23:07 +0300
+
+libppix-regexp-perl (0.040-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.040
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 31 May 2015 15:25:32 +0200
+
+libppix-regexp-perl (0.039-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * Imported Upstream version 0.039
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 3.9.6
+  * Add Testsuite: autopkgtest-pkg-perl field in debian/control
+  * Copy inc/ to the temporary directory used in the smoke autopkgtest
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 05 May 2015 19:53:28 +0200
+
+libppix-regexp-perl (0.036-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.036
+  * Update copyright years for debian/* packaging files
+  * Update copyright years for upstream files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 05 Jan 2014 08:03:59 +0100
+
+libppix-regexp-perl (0.035-1) unstable; urgency=low
+
+  * Imported Upstream version 0.035
+  * Bump Standards-Version to 3.9.5
+  * Wrap and sort fields in debian/control file
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 21 Nov 2013 23:15:06 +0100
+
+libppix-regexp-perl (0.034-1) unstable; urgency=low
+
+  * Imported Upstream version 0.034
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 12 May 2013 08:12:34 +0200
+
+libppix-regexp-perl (0.033-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 0.029, 0.030, 0.031, 0.032 and 0.033
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Update debian/copyright file information.
+    Update copyright years for upstream files and debian/* packaging files.
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Bump Standards-Version to 3.9.4
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 11 May 2013 16:46:54 +0200
+
+libppix-regexp-perl (0.028-1) unstable; urgency=low
+
+  * Imported Upstream version 0.028
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 06 Jun 2012 22:43:27 +0200
+
+libppix-regexp-perl (0.027-1) unstable; urgency=low
+
+  * Imported Upstream version 0.027
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 28 May 2012 22:44:47 +0200
+
+libppix-regexp-perl (0.026-1) unstable; urgency=low
+
+  * Imported Upstream version 0.026
+  * Update copyright file to copyright-format 1.0
+  * Bump Standards-Version to 3.9.3
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 25 Feb 2012 15:36:41 +0100
+
+libppix-regexp-perl (0.025-1) unstable; urgency=low
+
+  * Imported Upstream version 0.024 and 0.025
+  * Refresh debian/copyright file.
+    Update copyright years for upstream files and debian/* packaging files.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 05 Jan 2012 07:23:56 +0100
+
+libppix-regexp-perl (0.023-1) unstable; urgency=low
+
+  * Imported Upstream version 0.023
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 08 Dec 2011 20:20:47 +0100
+
+libppix-regexp-perl (0.022-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Imported Upstream version 0.022
+  * Move perl to Build-Depends for Module::Build use
+  * Add alternate Build-Depends-Indep for Test::More.
+    Installation requires at least Test::More 0.88.
+    Add alternate Build-Depends-Indep on perl (>= 5.10.1) |
+    libtest-simple-lerl (>= 0.88).
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 25 Nov 2011 08:07:27 +0100
+
+libppix-regexp-perl (0.021-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.9.2 (no changes needed).
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 23 Jul 2011 09:30:30 +0200
+
+libppix-regexp-perl (0.020-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 03 Apr 2011 15:02:07 +0200
+
+libppix-regexp-perl (0.019-1) unstable; urgency=low
+
+  * New upstream release
+  * Rewrite control description
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Wed, 02 Mar 2011 22:54:31 -0500
+
+libppix-regexp-perl (0.018-1) unstable; urgency=low
+
+  * New upstream release
+  * Email change: Salvatore Bonaccorso -> carnil@debian.org
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 18 Feb 2011 08:40:13 +0100
+
+libppix-regexp-perl (0.017-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 28 Jan 2011 12:51:15 +0100
+
+libppix-regexp-perl (0.016-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release
+  * debian/copyright: update copyright years.
+  * debian/control: Rearrange ordering of (Build-)Depends(-Indep) and
+    Uploaders fields.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 06 Jan 2011 14:50:57 +0100
+
+libppix-regexp-perl (0.015-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 26 Oct 2010 09:36:16 +0200
+
+libppix-regexp-perl (0.014-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 15 Oct 2010 13:10:20 +0200
+
+libppix-regexp-perl (0.013-1) unstable; urgency=low
+
+  * New upstream release
+  * Update carnil's email address
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 11 Oct 2010 08:27:07 +0200
+
+libppix-regexp-perl (0.012-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Mon, 27 Sep 2010 20:32:43 +0200
+
+libppix-regexp-perl (0.011-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control:
+    - Drop (Build-)Depends on libparams-util-perl and libreadonly-perl.
+    - Bump versioned Build-Depends on debhelper to (>= 8).
+  * debian/copyright: Refresh copyright file and refer to Debian
+    systems.
+  * Bump Debhelper compat level to 8.
+  * debian/rules:
+    - No need to use --buildsystem=perl_build anymore with Debhelper compat
+      level 8.
+    - Add override for dh_installexamples to fix shebang to Perl interpreter
+      in examples files.
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 18 Sep 2010 15:44:08 +0200
+
+libppix-regexp-perl (0.010-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 06 Aug 2010 20:37:10 +0200
+
+libppix-regexp-perl (0.009-1) unstable; urgency=low
+
+  * New upstream release.
+  * Use Build.PL.
+  * debian/copyright: Refer to /usr/share/common-licenses/GPL-1.
+  * Bump Standards-Version to 3.9.1.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Wed, 04 Aug 2010 16:53:24 +0900
+
+libppix-regexp-perl (0.008-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders.
+  * Re-order dependency fields in debian/control.
+  * Refresh debian/copyright file.
+  * Bump Standards-Version to 3.9.0 (no changes needed).
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 02 Jul 2010 19:48:24 +0200
+
+libppix-regexp-perl (0.007-1) unstable; urgency=low
+
+  * New upstream release.
+  * Use source format 3.0 (quilt).
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sat, 01 May 2010 17:50:21 +0900
+
+libppix-regexp-perl (0.006-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version 3.8.4 (no changes)
+  * Update years of copyright
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Wed, 03 Mar 2010 11:34:04 -0500
+
+libppix-regexp-perl (0.005-1) unstable; urgency=low
+
+  * New upstream release
+  * Update copyright information
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sun, 27 Dec 2009 10:25:25 -0500
+
+libppix-regexp-perl (0.004-1) unstable; urgency=low
+
+  * New upstream release
+  * Upstream version now requires Task::Weaken
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Thu, 19 Nov 2009 08:02:06 -0500
+
+libppix-regexp-perl (0.002-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * Initial Release (Closes: #552187)
+
+  [ Jose Luis Rivas ]
+  * New upstream release
+
+ -- Jose Luis Rivas <ghostbar@debian.org>  Mon, 02 Nov 2009 21:40:14 -0430

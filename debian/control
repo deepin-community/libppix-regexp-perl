@@ -1,0 +1,30 @@
+Source: libppix-regexp-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>,
+           Salvatore Bonaccorso <carnil@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libmodule-build-perl,
+               perl
+Build-Depends-Indep: liblist-moreutils-perl <!nocheck>,
+                     libppi-perl <!nocheck>,
+                     libtask-weaken-perl <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libppix-regexp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libppix-regexp-perl.git
+Homepage: https://metacpan.org/release/PPIx-Regexp
+Rules-Requires-Root: no
+
+Package: libppix-regexp-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libppi-perl,
+         libtask-weaken-perl
+Description: module to parse regular expressions
+ PPIx::Regexp is a Perl module that parses regular expressions in a manner
+ similar to the way that PPI (see libppi-perl) parses Perl documents. This
+ class forms the root of the parse tree, which is similar to PPI::Document.
+ Like PPI, this module produces output which is round-trip safe.
